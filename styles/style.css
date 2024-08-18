@@ -1,0 +1,24 @@
+header, nav, main, .sidebar, .ad, footer{
+    background-color: bisque;
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 5px;
+}
+header{
+    grid-area: header;
+}
+nav{
+    grid-area: nav;
+}
+main{
+    grid-area: main;
+}
+.sidebar{
+    grid-area: sidebar;
+}
+.ad{
+    grid-area: ad;
+}
+footer{
+    grid-area: footer;
+}
