@@ -31,5 +31,25 @@ footer{
     "nav main main ad"
     "footer footer footer footer";
 }
-
+@media screen and (max-width: 576px) {
+    .container{
+    grid-template-areas: 
+    "header "
+    "nav "
+    " main "
+    "sidebar"
+    "ad"
+    "footer";}
+}
+@media screen and (min-width:576px) and (max-width:970px) {
+  .container{
+    grid-template-areas: 
+    "header header"
+    "nav nav"
+    "main main"
+    "sidebar ad"
+    "footer footer"
+    ;
+  }  
+}
 
