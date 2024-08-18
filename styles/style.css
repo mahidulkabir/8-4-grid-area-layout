@@ -22,3 +22,14 @@ main{
 footer{
     grid-area: footer;
 }
+.container{
+    display: grid;
+    gap: 20px;
+    grid-template-areas: 
+    "header header header header"
+    "nav main main sidebar"
+    "nav main main ad"
+    "footer footer footer footer";
+}
+
+
